@@ -1,0 +1,74 @@
+    body {
+    	font-family: 'Poppins', sans-serif;
+    	background-color: #f5f5f5;
+    	/* Màu nền nhẹ nhàng cho toàn bộ trang */
+    }
+
+    /* Slider */
+    .carousel-item img {
+    	height: 350px;
+    	object-fit: cover;
+    	/* Đảm bảo ảnh không bị vỡ */
+    }
+
+    /* Title */
+    p.fs-4 {
+    	font-size: 1.5rem;
+    	color: #333333;
+    	font-weight: 600;
+    }
+
+    /* Category Section */
+    .card {
+    	border: none;
+    	border-radius: 10px;
+    	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+    	background-color: #ffffff;
+    	text-align: center;
+    	padding: 15px;
+    }
+
+    .card-body a {
+    	font-size: 1.2rem;
+    	color: #ff7f00;
+    	/* Màu cam */
+    	text-decoration: none;
+    	font-weight: 500;
+    }
+
+    .card-body a:hover {
+    	color: #ff4500;
+    	/* Màu cam đậm khi hover */
+    }
+
+    /* Latest Product Section */
+    .container-fluid.bg-light {
+    	background-color: #f8f9fa !important;
+    }
+
+    .card-body a {
+    	color: #333;
+    	/* Màu chữ sản phẩm chuyển sang màu đen */
+    }
+
+    .card-body img {
+    	border-radius: 8px;
+    }
+
+    /* Màu chữ cho sản phẩm */
+    .card-body p,
+    .card-body a {
+    	color: #000;
+    	/* Đảm bảo tất cả chữ trong card đều có màu đen */
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+    	.carousel-item img {
+    		height: 250px;
+    		/* Điều chỉnh chiều cao ảnh cho màn hình nhỏ */
+    	}
+    }
